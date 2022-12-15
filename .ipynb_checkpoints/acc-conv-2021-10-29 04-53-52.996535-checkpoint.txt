@@ -1,0 +1,15 @@
+file_name = dataset-awgn-conv-20db-pre-raw.csv
+modulate = bpsk
+epoch = 700
+training_acc = [0.6540000019073486]
+validation_acc = [0.6160000061988831]
+              precision    recall  f1-score   support
+
+ conv（2，1，3）  0.58974359 0.35384615 0.44230769        65
+ conv（2，1，4）  1.00000000 0.55952381 0.71755725        84
+ conv（2，1，5）  0.42975207 1.00000000 0.60115607        52
+ conv（2，1，6）  0.74418605 0.65306122 0.69565217        49
+
+    accuracy                      0.61600000       250
+   macro avg  0.69092043 0.64160780 0.61416830       250
+weighted avg  0.72458223 0.61600000 0.61748753       250

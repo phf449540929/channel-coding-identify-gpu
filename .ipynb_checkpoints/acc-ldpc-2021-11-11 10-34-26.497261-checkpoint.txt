@@ -1,0 +1,15 @@
+file_name = dataset-rayleigh-single-ldpc-12db-pre-raw.csv
+modulate = bpsk
+epoch = 900
+training_acc = [0.8959999990463257]
+validation_acc = [0.9279999995231628]
+                  precision    recall  f1-score   support
+
+ ldpc（1944，1296）  0.93421053 1.00000000 0.96598639        71
+ ldpc（1944，1458）  0.85333333 1.00000000 0.92086331        64
+ ldpc（1944，1620）  1.00000000 0.80000000 0.88888889        60
+  ldpc（1944，972）  0.96078431 0.89090909 0.92452830        55
+
+        accuracy                      0.92800000       250
+       macro avg  0.93708204 0.92272727 0.92506672       250
+    weighted avg  0.93514167 0.92800000 0.92681070       250

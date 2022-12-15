@@ -1,0 +1,15 @@
+file_name = dataset-awgn-ldpc-20db-pre-raw.csv
+modulate = bpsk
+epoch = 400
+training_acc = [0.5760000028610229]
+validation_acc = [0.5800000057220459]
+                  precision    recall  f1-score   support
+
+ ldpc（1944，1296）  1.00000000 0.19230769 0.32258065        52
+ ldpc（1944，1458）  0.50000000 1.00000000 0.66666667        70
+ ldpc（1944，1620）  0.63157895 0.95238095 0.75949367        63
+  ldpc（1944，972）  1.00000000 0.07692308 0.14285714        65
+
+        accuracy                      0.58000000       250
+       macro avg  0.78289474 0.55540293 0.47289953       250
+    weighted avg  0.76715789 0.58000000 0.48229870       250

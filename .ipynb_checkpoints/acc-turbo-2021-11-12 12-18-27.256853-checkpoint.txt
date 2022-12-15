@@ -1,0 +1,15 @@
+file_name = dataset-rayleigh-single-turbo-30db-pre-raw.csv
+modulate = bpsk
+epoch = 900
+training_acc = [0.5610000019073487]
+validation_acc = [0.5719999961853027]
+                  precision    recall  f1-score   support
+
+ turbo（3，1，5，31）  0.56521739 1.00000000 0.72222222        65
+ turbo（3，1，5，33）  0.53278689 0.95588235 0.68421053        68
+ turbo（3，1，5，35）  1.00000000 0.18965517 0.31884058        58
+ turbo（3，1，5，37）  1.00000000 0.03389831 0.06557377        59
+
+        accuracy                      0.57200000       250
+       macro avg  0.77450107 0.54485896 0.44771177       250
+    weighted avg  0.75987455 0.57200000 0.46332947       250

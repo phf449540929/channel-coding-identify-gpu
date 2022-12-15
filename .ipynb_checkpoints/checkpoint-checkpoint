@@ -1,0 +1,5 @@
+model_checkpoint_path: "D:\\code\\penghaifeng\\model-channel-coding-8000"
+all_model_checkpoint_paths: "D:\\code\\penghaifeng\\model-channel-coding-2000"
+all_model_checkpoint_paths: "D:\\code\\penghaifeng\\model-channel-coding-4000"
+all_model_checkpoint_paths: "D:\\code\\penghaifeng\\model-channel-coding-6000"
+all_model_checkpoint_paths: "D:\\code\\penghaifeng\\model-channel-coding-8000"

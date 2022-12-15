@@ -1,0 +1,15 @@
+file_name = dataset-awgn-polar-0db-pre-raw.csv
+modulate = bpsk
+epoch = 100
+training_acc = [0.6910000004768372]
+validation_acc = [0.6919999918937683]
+              precision    recall  f1-score   support
+
+  polar（150）  1.00000000 0.55555556 0.71428571        72
+  polar（160）  0.62790698 1.00000000 0.77142857        54
+  polar（170）  0.60526316 1.00000000 0.75409836        69
+  polar（180）  1.00000000 0.18181818 0.30769231        55
+
+    accuracy                      0.69200000       250
+   macro avg  0.80829253 0.68434343 0.63687624       250
+weighted avg  0.81068054 0.69200000 0.64816631       250

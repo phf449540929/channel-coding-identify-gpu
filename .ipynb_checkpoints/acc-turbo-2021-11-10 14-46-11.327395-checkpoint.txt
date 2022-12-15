@@ -1,0 +1,15 @@
+file_name = dataset-awgn-turbo--8db-pre-raw.csv
+modulate = bpsk
+epoch = 500
+training_acc = [0.5359999976158142]
+validation_acc = [0.563999990940094]
+                  precision    recall  f1-score   support
+
+ turbo（3，1，5，31）  0.36708861 0.54716981 0.43939394        53
+ turbo（3，1，5，33）  0.54464286 1.00000000 0.70520231        61
+ turbo（3，1，5，35）  0.84313725 0.65151515 0.73504274        66
+ turbo（3，1，5，37）  1.00000000 0.11428571 0.20512821        70
+
+        accuracy                      0.56400000       250
+       macro avg  0.68871718 0.57824267 0.52119180       250
+    weighted avg  0.71330388 0.56400000 0.51670806       250

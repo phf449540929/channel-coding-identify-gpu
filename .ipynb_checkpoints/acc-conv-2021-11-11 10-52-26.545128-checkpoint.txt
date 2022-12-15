@@ -1,0 +1,15 @@
+file_name = dataset-rayleigh-single-conv-12db-pre-raw.csv
+modulate = bpsk
+epoch = 1000
+training_acc = [0.9589999971389771]
+validation_acc = [0.9599999995231628]
+              precision    recall  f1-score   support
+
+ conv（2，1，3）  0.94444444 1.00000000 0.97142857        68
+ conv（2，1，4）  0.94202899 0.95588235 0.94890511        68
+ conv（2，1，5）  0.96875000 1.00000000 0.98412698        62
+ conv（2，1，6）  1.00000000 0.86538462 0.92783505        52
+
+    accuracy                      0.96000000       250
+   macro avg  0.96380586 0.95531674 0.95807393       250
+weighted avg  0.96137077 0.96000000 0.95938394       250
